@@ -21,3 +21,6 @@ Compairetion(list,sum)
 
 
 
+
+
+

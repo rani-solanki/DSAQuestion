@@ -1,12 +1,13 @@
 def FindMaxDiffrence(arr,MDiffrence):
     minElement = arr[0]
     i=0
-    while(i<len(arr)):
+    while(i< len(arr)):
         d = arr[i] - minElement
         if ( d > MDiffrence):
             MDiffrence = arr[i] - minElement
         if (arr[i] < minElement):
             minElement = arr[i]
+        i=i+1
     return MDiffrence
 
 
